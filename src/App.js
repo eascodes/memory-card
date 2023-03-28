@@ -6,7 +6,7 @@ import './styles/style.css'
 function App() {
   const [score, setScore] = useState(0)
   const [bestScore, setBestScore] = useState(0)
-  
+
   return (
     <div className="App">
       <Header 
@@ -14,6 +14,7 @@ function App() {
         bestScore={bestScore}
       />
       <Container
+        score={score} 
         setScore={setScore}
         bestScore={bestScore}
         setBestScore={setBestScore}

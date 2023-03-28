@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+img:hover {
+    box-shadow: 0 0 10px rgb(245, 223, 57);
+    cursor: pointer;
+}
+
+.crop-left {
+    object-position: 90% 0;
+}
+
+.crop-right {
+    object-position: 30% 0;
+}

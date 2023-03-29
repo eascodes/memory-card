@@ -13,11 +13,16 @@ const Container = (props) => {
       }
     const images = importAll(require.context('../assets/dogs', false, /\.(png|jpe?g|svg)$/));
 
-    // Create initial adjacency list & set state
+    // Create initial adjacency list w/ appropriate classes for img cropping
     let initialArr = []
-    for (let i=1; i<13; i++) {
-        initialArr.push({id: i, status: 'unclicked'})
-    }
+    for (let i=1; i<13; i++) { initialArr.push({id: i, status: 'unclicked'}) }
+    initialArr.map(item => {
+        if (item.id === 1 || item.id === 3) { return {...item, className: 'crop-right'} }
+        else if (item.id === 9 || item.id === 10) { return {...item, className: 'crop-left'} }
+        else { return item }
+    })
+
+    // Set initial state with adjacency list
     const [arr, setArr] = useState(initialArr)
 
     const resetRound = () => {
@@ -68,6 +73,7 @@ const Container = (props) => {
                     alt='Picure of a dog running' 
                     id={item.id} 
                     key={uniqid()} 
+                    className={item.className}
                     onClick={handleClick}>
                 </img>
             })}

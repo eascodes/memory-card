@@ -55,6 +55,7 @@ const Container = (props) => {
     }
 
     // If round score is higher than best score, update best score
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => { if (score > bestScore) setBestScore(score) }, [score])
 
     const shuffleArray = (array) => {

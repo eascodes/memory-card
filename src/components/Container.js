@@ -30,10 +30,12 @@ const Container = (props) => {
             })
         })
     }
-    
+
     const handleClick = (e) => {        
-        // If an image hasn't been clicked
-        if ((e.target.classList.contains('unclicked'))) {
+        // Find index of target image in adjacency list array
+        const index = arr.findIndex((item) => item.id === parseInt(e.target.id))
+        // If image hasn't been clicked
+        if (arr[index].status === 'unclicked') {
             // Increase the round score
             setScore(prevScore => prevScore + 1)
             // Mark the targeted image as clicked
@@ -66,7 +68,6 @@ const Container = (props) => {
                     alt='Picure of a dog running' 
                     id={item.id} 
                     key={uniqid()} 
-                    className={item.status} 
                     onClick={handleClick}>
                 </img>
             })}

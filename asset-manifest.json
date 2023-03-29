@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.2ec27ce6.css",
+    "main.js": "/memory-card/static/js/main.e635a8e8.js",
+    "static/media/landscape.png": "/memory-card/static/media/landscape.2bf0534bf6b0a0d21e2e.png",
+    "static/media/dog12.jpg": "/memory-card/static/media/dog12.b2969decf01ee019dafa.jpg",
+    "static/media/dog4.jpg": "/memory-card/static/media/dog4.0fa56c2bc4cb7cc9f7d8.jpg",
+    "static/media/dog3.jpg": "/memory-card/static/media/dog3.9a08169bcf74aa004f40.jpg",
+    "static/media/dog5.jpg": "/memory-card/static/media/dog5.1211ada2aa47f583c997.jpg",
+    "static/media/dog8.jpg": "/memory-card/static/media/dog8.2f9b8bf98f1b41f12f0c.jpg",
+    "static/media/dog10.jpg": "/memory-card/static/media/dog10.82998745dd1907fc0cf3.jpg",
+    "static/media/dog1.jpg": "/memory-card/static/media/dog1.f11fc5cef8539a78263e.jpg",
+    "static/media/dog6.jpg": "/memory-card/static/media/dog6.d192b36ac57ef3572b4d.jpg",
+    "static/media/dog9.jpg": "/memory-card/static/media/dog9.453007409499a6544e93.jpg",
+    "static/media/dog7.jpg": "/memory-card/static/media/dog7.dc0516c41d0dd30febe6.jpg",
+    "static/media/dog11.jpg": "/memory-card/static/media/dog11.b2ac33f02d7bb0d9e494.jpg",
+    "static/media/dog2.jpg": "/memory-card/static/media/dog2.656b880b04553519254d.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.2ec27ce6.css.map": "/memory-card/static/css/main.2ec27ce6.css.map",
+    "main.e635a8e8.js.map": "/memory-card/static/js/main.e635a8e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ec27ce6.css",
+    "static/js/main.e635a8e8.js"
+  ]
+}
